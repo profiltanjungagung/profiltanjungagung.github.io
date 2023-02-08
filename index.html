@@ -36,7 +36,7 @@
     <header id="header" class="fixed-top">
       <div class="container d-flex align-items-center justify-content-between">
         <h1 class="logo"><a href="index.html" class="logo"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>
-          <a href="index.html">Tanjung Agung</a></h1>
+          <a href="#hero">Tanjung Agung</a></h1>
         <!-- Uncomment below if you prefer to use an image logo -->
         <!-- <a href="index.html" class="logo"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
 
@@ -56,7 +56,7 @@
                 <li><a href="#informasi-pendikes">Informasi Pendidikan dan Kesehatan</a></li>
                 <li><a href="#informasi-keuangan">Informasi Keuangan</a></li>
                 <li><a href="#informasi-lembaga">Informasi Lembaga</a></li>
-                <li><a href="informasi-tani">Informasi Pertanian dan Peternakan</a></li>
+                <li><a href="#informasi-tani">Informasi Pertanian dan Peternakan</a></li>
               </ul>
             </li>
             <li><a class="nav-link scrollto" href="#footer">Kontak</a></li>
@@ -70,46 +70,61 @@
     <!-- End Header -->
 
     <!-- ======= Hero Section ======= -->
-    <section id="hero">
+    <section id="hero" class="hero">
       <div id="heroCarousel" data-bs-interval="5000" class="carousel slide carousel-fade" data-bs-ride="carousel">
         <ol class="carousel-indicators" id="hero-carousel-indicators"></ol>
 
         <div class="carousel-inner" role="listbox">
           <!-- Slide 1 -->
-          <div class="carousel-item active" style="background-image: url(assets/img/slide/slide.jpeg)">
+          <div class="carousel-item active" style="background-image: url(assets/img/slide/beranda-1.jpg)">
             <div class="carousel-container">
               <div class="container">
                 <h2 class="animate__animated animate__fadeInDown">Selamat Datang di <span></br>Desa Tanjung Agung</span></h2>
                 <p class="animate__animated animate__fadeInUp">Desa Tanjung Agung merupakan kampung yang berada di kecamatan Pakuan Ratu, Way Kanan, Lampung, Indonesia.</p>
-                <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a>
-              </div>
-            </div>
-          </div>
-
-          <!-- Slide 2 -->
-          <div class="carousel-item" style="background-image: url(assets/img/slide/slide4.jpeg)">
-            <div class="carousel-container">
-              <div class="container">
-                <h2 class="animate__animated animate__fadeInDown">Potensi Lahan Pertanian</h2>
-                <p class="animate__animated animate__fadeInUp">Desa Tanjung Agung memiliki lahan potensial dibidang pertanian yang meliputi komoditas sawit, karet, singkong, padi dan kelapa.</p>
                 <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Baca Lebih Lanjut</a>
               </div>
             </div>
           </div>
 
-          <!-- Slide 3 -->
-          <div class="carousel-item" style="background-image: url(assets/img/slide/slide3.jpeg)">
+        <!-- Slide 4 -->
+        <div class="carousel-item" style="background-image: url(assets/img/slide/beranda-2.png)">
+          <div class="carousel-container">
+            <div class="container">
+              <h2 class="animate__animated animate__fadeInDown">Bagan Aparat Desa</h2>
+              <p class="animate__animated animate__fadeInUp">                 
+                Berikut Struktur Aparatur Pemerintahan Kampung Desa Tanjung Agung Way Kanan
+              </p>
+              <a href="https://drive.google.com/drive/folders/1LDanktJ9PUW61pQ5J0fSBHAdK4WtI4Qm?usp=share_link" class="btn-get-started animate__animated animate__fadeInUp scrollto">Lihat Gambar Lebih Detail</a>
+            </div>
+          </div>
+        </div>
+
+          <!-- Slide 2 -->
+          <div class="carousel-item" style="background-image: url(assets/img/slide/beranda-3.jpg)">
             <div class="carousel-container">
               <div class="container">
-                <h2 class="animate__animated animate__fadeInDown">Struktur Aparat Desa</h2>
+                <h2 class="animate__animated animate__fadeInDown">Potensi Desa</h2>
+                <p class="animate__animated animate__fadeInUp">Desa Tanjung Agung memiliki lahan potensial dibidang pertanian yang meliputi komoditas karet,sawit, singkong, padi dan kelapa.</p>
+                <a href="#informasi-tani" class="btn-get-started animate__animated animate__fadeInUp scrollto">Baca Lebih Lanjut</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Slide 3 -->
+          <div class="carousel-item" style="background-image: url(assets/img/slide/beranda-4.jpg)">
+            <div class="carousel-container">
+              <div class="container">
+                <h2 class="animate__animated animate__fadeInDown">Jumlah Penduduk</h2>
                 <p class="animate__animated animate__fadeInUp">
-                  Berikut adalah bagan kepengurusan pemerintahan desa Tanjung Agung.
+                  Desa Tanjung Agung memiliki Penduduk Berjumlah 3126 Jumlah Jiwa yang diantaranya berprofesi karyawan,petani, dan profesi lainnya.
                 </p>
-                <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Tampilkan Gambar</a>
+                <a href="#informasi-penduduk" class="btn-get-started animate__animated animate__fadeInUp scrollto">Baca Lebih Lanjut</a>
               </div>
             </div>
           </div>
         </div>
+
+
 
         <a class="carousel-control-prev" href="#heroCarousel" role="button" data-bs-slide="prev">
           <span class="carousel-control-prev-icon bi bi-chevron-left" aria-hidden="true"></span>
@@ -161,26 +176,26 @@ Kordinat letak geografis desa Tanjung Agung berada pada Longitude 104'42'38" dan
               <div class="count-box">
                 <i class="bi bi-people"></i>
                 <span data-purecounter-start="0" data-purecounter-end="3126" data-purecounter-duration="1" class="purecounter"></span>
-                <p><strong>Jumlah Jiwa</strong> rerum asperiores dolor molestiae doloribu</p>
-                <a href="#">Find out more &raquo;</a>
+                <p><strong>Jumlah Jiwa</strong> Jumlah jiwa di desa ini dapat dibagi berdasarkan jenis kelamin dan umur</p>
+                <a href="#informasi-penduduk">Detail &raquo;</a>
               </div>
             </div>
 
             <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch">
               <div class="count-box">
-                <i class="bi bi-headset"></i>
-                <span data-purecounter-start="0" data-purecounter-end="24" data-purecounter-duration="1" class="purecounter"></span>
-                <p><strong>Jam Layanan</strong> aut commodi quaerat. Aliquam ratione</p>
-                <a href="#">Find out more &raquo;</a>
+                <i class="bi bi-buildings"></i>
+                <span data-purecounter-start="0" data-purecounter-end="22" data-purecounter-duration="1" class="purecounter"></span>
+                <p><strong>Sarana Ibadah</strong> Sarana ibadah di desa ini terdiri dari mushola, masjid, dan gereja</p>
+                <a href="#informasi-sarana">Detail &raquo;</a>
               </div>
             </div>
 
             <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch">
               <div class="count-box">
                 <i class="bi bi-journal-richtext"></i>
-                <span data-purecounter-start="0" data-purecounter-end="1500" data-purecounter-duration="1" class="purecounter"></span>
-                <p><strong>Laporan Keuangan</strong> adipisci atque cum quia aut numquam delectus</p>
-                <a href="#">Find out more &raquo;</a>
+                <span data-purecounter-start="0" data-purecounter-end="9" data-purecounter-duration="1" class="purecounter"></span>
+                <p><strong>Laporan Keuangan</strong> Laporan Keuangan di desa ini terdiri dari laporan pendapatan,dana cadangan,bantuan desa, dan sebagainya</p>
+                <a href="#informasi-keuangan">Detail &raquo;</a>
               </div>
             </div>
 
@@ -188,15 +203,12 @@ Kordinat letak geografis desa Tanjung Agung berada pada Longitude 104'42'38" dan
               <div class="count-box">
                 <i class="bi bi-emoji-smile"></i>
                 <span data-purecounter-start="0" data-purecounter-end="785" data-purecounter-duration="1" class="purecounter"></span>
-                <p><strong>Jumlah Keluarga Sejahtera</strong> consequuntur quae qui deca rode</p>
-                <a href="#">Find out more &raquo;</a>
+                <p><strong>Jumlah Keluarga Sejahtera</strong> Di desa ini terdapat keluarga sejahtera dan prasejahtera dengan rasio 3:1 </p>
+                <a href="#informasi-penduduk">Detail &raquo;</a>
               </div>
             </div>
 
             
-
-           
-           
           </div>
         </div>
       </section>
@@ -212,51 +224,63 @@ Kordinat letak geografis desa Tanjung Agung berada pada Longitude 104'42'38" dan
 
           <div class="row">
             <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
+              <a href="https://drive.google.com/drive/folders/16g01Xyo5_Za44kpX6lsmlKSwXBVrDSDs?usp=share_link">
               <div class="icon-box">
-                <div class="icon"><i class="bx bxl-dribbble"></i></div>
-                <h4><a href="">SKTM</a></h4>
-                <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
+                <div class="icon"><i class="bx bx-file"></i></div>
+                <h4><a href="https://drive.google.com/drive/folders/16g01Xyo5_Za44kpX6lsmlKSwXBVrDSDs?usp=share_link">SKTM</a></h4>
+                <p>Surat Keterangan Tidak Mampu untuk keperluan bantuan dari pemerintah dll. </p>
               </div>
+              </a>
             </div>
 
             <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="zoom-in" data-aos-delay="200">
+              <a href="https://drive.google.com/drive/folders/1AFSgye_nS5Im5o4noDUQG4nY5pbMJuN7?usp=share_link">
               <div class="icon-box">
                 <div class="icon"><i class="bx bx-file"></i></div>
-                <h4><a href="">Surat Rujukan RS.</a></h4>
-                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p>
+                <h4><a href="https://drive.google.com/drive/folders/1AFSgye_nS5Im5o4noDUQG4nY5pbMJuN7?usp=share_link">Surat Kepemilikan</a></h4>
+                <p>Surat Keterangan Kepemilikan untuk keperluan kepermilikan masyarakat desa. </p>
               </div>
+            </a>
             </div>
 
             <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0" data-aos="zoom-in" data-aos-delay="300">
+              <a href="https://drive.google.com/drive/folders/1cSLNyjGrADOgj-6up-P47P0dmVjEpMNY?usp=share_link">
               <div class="icon-box">
-                <div class="icon"><i class="bx bx-tachometer"></i></div>
-                <h4><a href="">Surat Pengantar</a></h4>
-                <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</p>
+                <div class="icon"><i class="bx bx-file"></i></div>
+                <h4><a href="https://drive.google.com/drive/folders/1cSLNyjGrADOgj-6up-P47P0dmVjEpMNY?usp=share_link">Surat Nikah</a></h4>
+                <p>Surat Nikah untuk keperluan keterangan menikah yang terdiri dari N1-N5</p>
               </div>
+              </a>
             </div>
 
             <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="100">
+              <a href="https://drive.google.com/drive/folders/1NJRggnvE4oQipiLCrkivN3xm9uUpK1-W?usp=share_link">
               <div class="icon-box">
-                <div class="icon"><i class="bx bx-world"></i></div>
-                <h4><a href="">Nemo Enim</a></h4>
-                <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p>
+                <div class="icon"><i class="bx bx-file"></i></div>
+                <h4><a href="https://drive.google.com/drive/folders/1NJRggnvE4oQipiLCrkivN3xm9uUpK1-W?usp=share_link">Surat Pengantar SKCK</a></h4>
+                <p>Surat Pengantar SKCK untuk keperluan pembuatan SKCK dikantor polisi</p>
               </div>
+              </a>
             </div>
 
             <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="200">
+              <a href="https://drive.google.com/drive/folders/1IZ4qNsoYblOEBfzoCFkgJOMCUezu4jic?usp=share_link">
               <div class="icon-box">
-                <div class="icon"><i class="bx bx-slideshow"></i></div>
-                <h4><a href="">Dele cardo</a></h4>
-                <p>Quis consequatur saepe eligendi voluptatem consequatur dolor consequuntur</p>
+                <div class="icon"><i class="bx bx-file"></i></div>
+                <h4><a href="https://drive.google.com/drive/folders/1IZ4qNsoYblOEBfzoCFkgJOMCUezu4jic?usp=share_link">Surat Pindah Penduduk</a></h4>
+                <p>Surat Pindah Penduduk untuk keperluan pindah ke tempat tinggal baru.  </p>
               </div>
+              </a>
             </div>
 
             <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="300">
+              <a href="https://drive.google.com/drive/folders/1hrn_dnRoPRTckYoMe-S_Lu53g6o2u6dM?usp=share_link">
               <div class="icon-box">
-                <div class="icon"><i class="bx bx-arch"></i></div>
-                <h4><a href="">Divera don</a></h4>
-                <p>Modi nostrum vel laborum. Porro fugit error sit minus sapiente sit aspernatur</p>
+                <div class="icon"><i class="bx bx-file"></i></div>
+                <h4><a href="https://drive.google.com/drive/folders/1hrn_dnRoPRTckYoMe-S_Lu53g6o2u6dM?usp=share_link">Surat Jual Beli Tanah</a></h4>
+                <p>Surat Jual Beli tanah untuk keperluan transaksi dalam proses jual beli tanah</p>
               </div>
+            </a>
             </div>
           </div>
         </div>
@@ -275,17 +299,14 @@ Kordinat letak geografis desa Tanjung Agung berada pada Longitude 104'42'38" dan
           <div class="row">
             <div class="col-xl-3 col-lg-4 col-md-6">
               <div class="member" data-aos="zoom-in" data-aos-delay="100">
-                <img src="assets/img/team/team-1.jpg" class="img-fluid" alt="" />
+                <img src="assets/img/aparat-desa/kades.jpg" class="img-fluid" alt="" />
                 <div class="member-info">
                   <div class="member-info-content">
                     <h4>Eko Harianto</h4>
                     <span>Kepala Desa</span>
                   </div>
                   <div class="social">
-                    <a href=""><i class="bi bi-twitter"></i></a>
-                    <a href=""><i class="bi bi-facebook"></i></a>
-                    <a href=""><i class="bi bi-instagram"></i></a>
-                    <a href=""><i class="bi bi-linkedin"></i></a>
+                    <a href="https://wa.me/6282280763031"><i class="bi bi-whatsapp"></i></a>
                   </div>
                 </div>
               </div>
@@ -293,17 +314,14 @@ Kordinat letak geografis desa Tanjung Agung berada pada Longitude 104'42'38" dan
 
             <div class="col-xl-3 col-lg-4 col-md-6" data-wow-delay="0.1s">
               <div class="member" data-aos="zoom-in" data-aos-delay="200">
-                <img src="assets/img/team/team-2.jpg" class="img-fluid" alt="" />
+                <img src="assets/img/aparat-desa/sekdes.jpg" class="img-fluid" alt="" />
                 <div class="member-info">
                   <div class="member-info-content">
                     <h4>Agus Subambang</h4>
                     <span>Sekretaris Desa</span>
                   </div>
                   <div class="social">
-                    <a href=""><i class="bi bi-twitter"></i></a>
-                    <a href=""><i class="bi bi-facebook"></i></a>
-                    <a href=""><i class="bi bi-instagram"></i></a>
-                    <a href=""><i class="bi bi-linkedin"></i></a>
+                    <a href="https://wa.me/6282378445016"><i class="bi bi-whatsapp"></i></a>
                   </div>
                 </div>
               </div>
@@ -311,17 +329,14 @@ Kordinat letak geografis desa Tanjung Agung berada pada Longitude 104'42'38" dan
 
             <div class="col-xl-3 col-lg-4 col-md-6" data-wow-delay="0.2s">
               <div class="member" data-aos="zoom-in" data-aos-delay="300">
-                <img src="assets/img/team/team-3.jpg" class="img-fluid" alt="" />
+                <img src="assets/img/aparat-desa/ketua-bpd.png" class="img-fluid" alt="" />
                 <div class="member-info">
                   <div class="member-info-content">
                     <h4>Romelan Riyadi</h4>
                     <span>Ketua BPD</span>
                   </div>
                   <div class="social">
-                    <a href=""><i class="bi bi-twitter"></i></a>
-                    <a href=""><i class="bi bi-facebook"></i></a>
-                    <a href=""><i class="bi bi-instagram"></i></a>
-                    <a href=""><i class="bi bi-linkedin"></i></a>
+                    <a href="https://wa.me/6285783046817"><i class="bi bi-whatsapp"></i></a>
                   </div>
                 </div>
               </div>
@@ -332,17 +347,14 @@ Kordinat letak geografis desa Tanjung Agung berada pada Longitude 104'42'38" dan
           <div class="row">
             <div class="col-xl-3 col-lg-4 col-md-6">
               <div class="member" data-aos="zoom-in" data-aos-delay="100">
-                <img src="assets/img/team/team-1.jpg" class="img-fluid" alt="" />
+                <img src="assets/img/aparat-desa/kasi-pemerintahan.jpg" class="img-fluid" alt="" />
                 <div class="member-info">
                   <div class="member-info-content">
                     <h4>M. Syahridin</h4>
                     <span>KASI Pemerintahan</span>
                   </div>
                   <div class="social">
-                    <a href=""><i class="bi bi-twitter"></i></a>
-                    <a href=""><i class="bi bi-facebook"></i></a>
-                    <a href=""><i class="bi bi-instagram"></i></a>
-                    <a href=""><i class="bi bi-linkedin"></i></a>
+                    <a href="https://wa.me/6285379174995"><i class="bi bi-whatsapp"></i></a>
                   </div>
                 </div>
               </div>
@@ -350,17 +362,14 @@ Kordinat letak geografis desa Tanjung Agung berada pada Longitude 104'42'38" dan
 
             <div class="col-xl-3 col-lg-4 col-md-6" data-wow-delay="0.1s">
               <div class="member" data-aos="zoom-in" data-aos-delay="200">
-                <img src="assets/img/team/team-2.jpg" class="img-fluid" alt="" />
+                <img src="assets/img/aparat-desa/kasi-kesejahteraan.png" class="img-fluid" alt="" />
                 <div class="member-info">
                   <div class="member-info-content">
                     <h4>Hanafi Mustofa</h4>
                     <span>KASI Kesejaheraan</span>
                   </div>
                   <div class="social">
-                    <a href=""><i class="bi bi-twitter"></i></a>
-                    <a href=""><i class="bi bi-facebook"></i></a>
-                    <a href=""><i class="bi bi-instagram"></i></a>
-                    <a href=""><i class="bi bi-linkedin"></i></a>
+                    <a href="https://wa.me/6285766744063"><i class="bi bi-whatsapp"></i></a>
                   </div>
                 </div>
               </div>
@@ -368,17 +377,14 @@ Kordinat letak geografis desa Tanjung Agung berada pada Longitude 104'42'38" dan
 
             <div class="col-xl-3 col-lg-4 col-md-6" data-wow-delay="0.2s">
               <div class="member" data-aos="zoom-in" data-aos-delay="300">
-                <img src="assets/img/team/team-3.jpg" class="img-fluid" alt="" />
+                <img src="assets/img/aparat-desa/profil.png" class="img-fluid" alt="" />
                 <div class="member-info">
                   <div class="member-info-content">
                     <h4>Satria Idham Kholid</h4>
                     <span>KAUR Perencanaan</span>
                   </div>
                   <div class="social">
-                    <a href=""><i class="bi bi-twitter"></i></a>
-                    <a href=""><i class="bi bi-facebook"></i></a>
-                    <a href=""><i class="bi bi-instagram"></i></a>
-                    <a href=""><i class="bi bi-linkedin"></i></a>
+                    <a href="https://wa.me/6282186172018"><i class="bi bi-whatsapp"></i></a>
                   </div>
                 </div>
               </div>
@@ -386,17 +392,14 @@ Kordinat letak geografis desa Tanjung Agung berada pada Longitude 104'42'38" dan
 
             <div class="col-xl-3 col-lg-4 col-md-6" data-wow-delay="0.3s">
               <div class="member" data-aos="zoom-in" data-aos-delay="400">
-                <img src="assets/img/team/team-4.jpg" class="img-fluid" alt="" />
+                <img src="assets/img/aparat-desa/kaur-keuangan.jpg" class="img-fluid" alt="" />
                 <div class="member-info">
                   <div class="member-info-content">
                     <h4>Yahya Muh Rizal</h4>
                     <span>KAUR Keuangan</span>
                   </div>
                   <div class="social">
-                    <a href=""><i class="bi bi-twitter"></i></a>
-                    <a href=""><i class="bi bi-facebook"></i></a>
-                    <a href=""><i class="bi bi-instagram"></i></a>
-                    <a href=""><i class="bi bi-linkedin"></i></a>
+                    <a href="https://wa.me/6281273712309"><i class="bi bi-whatsapp"></i></a>
                   </div>
                 </div>
               </div>
@@ -406,7 +409,6 @@ Kordinat letak geografis desa Tanjung Agung berada pada Longitude 104'42'38" dan
         </div>
       </section>
       <!-- End Team Section -->
-
 
       <!-- ======= Informasi Section ======= -->
       <section id="informasi-wilayah" class="cta">
@@ -423,19 +425,19 @@ Kordinat letak geografis desa Tanjung Agung berada pada Longitude 104'42'38" dan
 
 
       <!-- ======= Informasi wilayah Section ======= -->
-      <section id="testimonials" class="testimonials section-bg">
+      <section id="data" class="data section-bg">
         <div class="container" data-aos="fade-up">
           <div class="section-title">
             <h2>Data</h2>
             <p>Informasi Wilayah Desa</p>
           </div>
 
-          <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
+          <div class="data-slider swiper" data-aos="fade-up" data-aos-delay="100">
             <div class="swiper-wrapper">
               <div class="swiper-slide">
-                <div class="testimonial-wrap">
-                  <div class="testimonial-item">
-                    <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="" />
+                <div class="informasi-wrap">
+                  <div class="informasi-item">
+                    <img src="assets/img/informasi-wilayah/klasifikasi-desa.jpg" class="informasi-img" alt="" />
                     <h3>Klasifikasi Desa</h3>
                     <h4>Tanjung Agung</h4>
                     <p>
@@ -446,12 +448,12 @@ Kordinat letak geografis desa Tanjung Agung berada pada Longitude 104'42'38" dan
                   </div>
                 </div>
               </div>
-              <!-- End testimonial item -->
+              <!-- End informasi item -->
 
               <div class="swiper-slide">
-                <div class="testimonial-wrap">
-                  <div class="testimonial-item">
-                    <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="" />
+                <div class="informasi-wrap">
+                  <div class="informasi-item">
+                    <img src="assets/img/informasi-wilayah/luas-desa.png" class="informasi-img" alt="" />
                     <h3>Luas Wilayah</h3>
                     <h4>Tanjung Agung</h4>
                     <p>
@@ -462,12 +464,12 @@ Kordinat letak geografis desa Tanjung Agung berada pada Longitude 104'42'38" dan
                   </div>
                 </div>
               </div>
-              <!-- End testimonial item -->
+              <!-- End informasi item -->
 
               <div class="swiper-slide">
-                <div class="testimonial-wrap">
-                  <div class="testimonial-item">
-                    <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="" />
+                <div class="informasi-wrap">
+                  <div class="informasi-item">
+                    <img src="assets/img/informasi-wilayah/tanah-desa.jpg" class="informasi-img" alt="" />
                     <h3>Tanah Terdata</h3>
                     <h4>Tanjung Agung</h4>
                     <p>
@@ -478,32 +480,184 @@ Kordinat letak geografis desa Tanjung Agung berada pada Longitude 104'42'38" dan
                   </div>
                 </div>
               </div>
-              <!-- End testimonial item -->
+              <!-- End informasi item -->
 
               
               <div class="swiper-slide">
-                <div class="testimonial-wrap">
-                  <div class="testimonial-item">
-                    <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="" />
+                <div class="informasi-wrap">
+                  <div class="informasi-item">
+                    <img src="assets/img/informasi-wilayah/orbitasi-desa.jpg" class="informasi-img" alt="" />
                     <h3>Orbitasi ( Jarak dari Pusat Pemerintahan )</h3>
                     <h4>Tanjung Agung</h4>
                     <p>
                       <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                      Jarak Desa Tanjung Agung dari pusat pemerintahan kecamatan yaitu sejauh 12 Kilometer, lalu Jarak Desa Tanjung Agung dari pusat pemerintahan kota yaitu sejauh 65 Kilometer,
-                      Jarak Desa Tanjung Agung dari pusat kota atau ibukota kabupaten yaitu sejauh 65 Kilometer, dan Jarak Desa Tanjung Agung dari ibukota provinsi yaitu sejauh 170 Kilometer
+                      Jarak Desa Tanjung Agung dari pusat pemerintahan kecamatan yaitu sejauh 12 Km, lalu Jarak dari pusat pemerintahan kota yaitu sejauh 65 Km,
+                      Jarak dari ibukota kabupaten yaitu sejauh 65 Km, dan Jarak dari ibukota provinsi yaitu sejauh 170 Km.
                     </p>
                   </div>
                 </div>
               </div>
-              <!-- End testimonial item -->
+              <!-- End informasi item -->
 
             </div>
             <div class="swiper-pagination"></div>
           </div>
         </div>
       </section>
-      <!-- End Testimonials Section -->      
+      <!-- End data Section -->      
       
+
+<!---Data Sarana dan Prasarana-->
+
+
+      <!-- ======= Cta Section ======= -->
+      <section id="informasi-sarana" class="cta">
+        <div class="container" data-aos="zoom-in">
+          <div class="text-center">
+            <h3>Informasi Sarana Dan Prasarana</h3>
+            <p>
+              Berikut Informasi Sarana dan Prasarana dari Desa Tanjung Agung, Kecamatan Pakuan Ratu, Kabupaten Way Kanan, Provinsi Lampung
+            </p>
+          </div>
+        </div>
+      </section>
+      <!-- End Cta Section -->
+
+      <!-- ======= sarana Section ======= -->
+      <section id="sarana" class="sarana">
+        <div class="container" data-aos="fade-up">
+          <div class="section-title">
+            <h2>Fasilitas</h2>
+            <p>Sarana dan Prasarana</p>
+          </div>
+
+          <div class="row" data-aos="fade-up" data-aos-delay="100">
+            <div class="col-lg-12 d-flex justify-content-center">
+              <ul id="sarana-flters">
+                <li data-filter="*" class="filter-active">Semua</li>
+                <li data-filter=".filter-app">Prasarana Ibadah</li>
+                <li data-filter=".filter-card">Prasarana Pendidikan</li>
+                <li data-filter=".filter-web">Prasarana Umum dan Kesehatan</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="row sarana-container" data-aos="fade-up" data-aos-delay="200">
+            <div class="col-lg-4 col-md-6 sarana-item filter-app">
+              <img src="assets/img/sarana/masjid.jpg" class="img-fluid" alt="" />
+              <div class="sarana-info">
+                <h4>Masjid</h4>
+                <p>Berjumlah 5 Unit</p>
+                <a href="assets/img/sarana/masjid.jpg" data-gallery="saranaGallery" class="sarana-lightbox preview-link" title="Masjid"><i class="bx bx-plus"></i></a>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 sarana-item filter-web">
+              <img src="assets/img/sarana/posyandu.jpg" class="img-fluid" alt="" />
+              <div class="sarana-info">
+                <h4>Posyandu dan Polindes</h4>
+                <p>Berjumlah 1 Unit</p>
+                <a href="assets/img/sarana/posyandu.jpg" data-gallery="saranaGallery" class="sarana-lightbox preview-link" title="Posyandu"><i class="bx bx-plus"></i></a>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 sarana-item filter-app">
+              <img src="assets/img/sarana/mushola.jpg" class="img-fluid" alt="" />
+              <div class="sarana-info">
+                <h4>Mushola</h4>
+                <p>Berjumlah 16 Unit</p>
+                <a href="assets/img/sarana/mushola.jpg" data-gallery="saranaGallery" class="sarana-lightbox preview-link" title="Mushola"><i class="bx bx-plus"></i></a>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 sarana-item filter-card">
+              <img src="assets/img/sarana/paud.jpg" class="img-fluid" alt="" />
+              <div class="sarana-info">
+                <h4>Gedung Sekolah PAUD</h4>
+                <p>Berjumlah 1 Unit</p>
+                <a href="assets/img/sarana/paud.jpg" data-gallery="saranaGallery" class="sarana-lightbox preview-link" title="Paud"><i class="bx bx-plus"></i></a>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 sarana-item filter-web">
+              <img src="assets/img/sarana/lapangan.png" class="img-fluid" alt="" />
+              <div class="sarana-info">
+                <h4>Lapangan Olahraga</h4>
+                <p>Berjumlah 6 Unit</p>
+                <a href="assets/img/sarana/lapangan.png" data-gallery="saranaGallery" class="sarana-lightbox preview-link" title="Lapangan Olahraga"><i class="bx bx-plus"></i></a>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 sarana-item filter-web">
+              <img src="assets/img/sarana/pasar.jpg" class="img-fluid" alt="" />
+              <div class="sarana-info">
+                <h4>Pasar Desa</h4>
+                <p>Berjumlah 1 Unit</p>
+                <a href="assets/img/sarana/pasar.jpg" data-gallery="saranaGallery" class="sarana-lightbox preview-link" title="Pasar"><i class="bx bx-plus"></i></a>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 sarana-item filter-app">
+              <img src="assets/img/sarana/gereja.jpg" class="img-fluid" alt="" />
+              <div class="sarana-info">
+                <h4>Gereja</h4>
+                <p>Berjumlah 1 Unit</p>
+                <a href="assets/img/sarana/gereja.jpg" data-gallery="saranaGallery" class="sarana-lightbox preview-link" title="Gereja"><i class="bx bx-plus"></i></a>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 sarana-item filter-card">
+              <img src="assets/img/sarana/tk.jpg" class="img-fluid" alt="" />
+              <div class="sarana-info">
+                <h4>Gedung Sekolah TK</h4>
+                <p>Berjumlah 1 Unit</p>
+                <a href="assets/img/sarana/tk.jpg" data-gallery="saranaGallery" class="sarana-lightbox preview-link" title="TK"><i class="bx bx-plus"></i></a>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 sarana-item filter-card">
+              <img src="assets/img/sarana/sd.jpg" class="img-fluid" alt="" />
+              <div class="sarana-info">
+                <h4>Gedung Sekolah SD</h4>
+                <p>Berjumlah 1 Unit</p>
+                <a href="assets/img/sarana/sd.jpg" data-gallery="saranaGallery" class="sarana-lightbox preview-link" title="SD"><i class="bx bx-plus"></i></a>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 sarana-item filter-card">
+              <img src="assets/img/sarana/smp.jpg" class="img-fluid" alt="" />
+              <div class="sarana-info">
+                <h4>Gedung Sekolah SMP</h4>
+                <p>Berjumlah 1 Unit</p>
+                <a href="assets/img/sarana/smp.jpg" data-gallery="saranaGallery" class="sarana-lightbox preview-link" title="SMP"><i class="bx bx-plus"></i></a>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 sarana-item filter-web">
+              <img src="assets/img/sarana/pertamina.jpg" class="img-fluid" alt="" />
+              <div class="sarana-info">
+                <h4>Pertashop</h4>
+                <p>Berjumlah 1 Unit</p>
+                <a href="assets/img/sarana/pertamina.jpg" data-gallery="saranaGallery" class="sarana-lightbox preview-link" title="Pertashop"><i class="bx bx-plus"></i></a>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 sarana-item filter-web">
+              <img src="assets/img/sarana/sumurr.jpg" class="img-fluid" alt="" />
+              <div class="sarana-info">
+                <h4>Sumur Desa</h4>
+                <p>Berjumlah 13 Unit</p>
+                <a href="assets/img/sarana/sumur.jpg" data-gallery="saranaGallery" class="sarana-lightbox preview-link" title="Sumur Desa"><i class="bx bx-plus"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End sarana Section -->
+
+
+<!--End Data Sarana dan Prasarana-->
+
       <!-- ======= Informasi Section ======= -->
       <section id="informasi-penduduk" class="cta">
         <div class="container" data-aos="zoom-in">
@@ -518,20 +672,20 @@ Kordinat letak geografis desa Tanjung Agung berada pada Longitude 104'42'38" dan
       <!-- Informasi Cta Section -->      
       
       <!-- ======= Informasi Penduduk Section ======= -->
-      <section id="testimonials" class="testimonials section-bg">
+      <section id="data" class="data section-bg">
         <div class="container" data-aos="fade-up">
           <div class="section-title">
             <h2>Data</h2>
             <p>Penduduk Desa</p>
           </div>
 
-          <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
+          <div class="data-slider swiper" data-aos="fade-up" data-aos-delay="100">
             <div class="swiper-wrapper">
 
               <div class="swiper-slide">
-                <div class="testimonial-wrap">
-                  <div class="testimonial-item">
-                    <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="" />
+                <div class="informasi-wrap">
+                  <div class="informasi-item">
+                    <img src="assets/img/informasi-penduduk/jkumur-penduduk.jpg" class="informasi-img" alt="" />
                     <h3>Jumlah Penduduk (Jenis Kelamin dan Umur)</h3>
                     <h4>Tanjung Agung</h4>
                     <p>
@@ -542,12 +696,12 @@ Kordinat letak geografis desa Tanjung Agung berada pada Longitude 104'42'38" dan
                   </div>
                 </div>
               </div>
-              <!-- End testimonial item -->
+              <!-- End informasi item -->
 
               <div class="swiper-slide">
-                <div class="testimonial-wrap">
-                  <div class="testimonial-item">
-                    <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="" />
+                <div class="informasi-wrap">
+                  <div class="informasi-item">
+                    <img src="assets/img/informasi-penduduk/sejahtera-penduduk.jpg" class="informasi-img" alt="" />
                     <h3>Jumlah Penduduk (Sejahtera)</h3>
                     <h4>Tanjung Agung</h4>
                     <p>
@@ -558,12 +712,12 @@ Kordinat letak geografis desa Tanjung Agung berada pada Longitude 104'42'38" dan
                   </div>
                 </div>
               </div>
-              <!-- End testimonial item -->
+              <!-- End informasi item -->
 
               <div class="swiper-slide">
-                <div class="testimonial-wrap">
-                  <div class="testimonial-item">
-                    <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="" />
+                <div class="informasi-wrap">
+                  <div class="informasi-item">
+                    <img src="assets/img/informasi-penduduk/matapencaharian-penduduk.jpg" class="informasi-img" alt="" />
                     <h3>Mata Pencaharian Penduduk</h3>
                     <h4>Desa Tanjung Agung</h4>
                     <p>
@@ -574,12 +728,12 @@ Kordinat letak geografis desa Tanjung Agung berada pada Longitude 104'42'38" dan
                   </div>
                 </div>
               </div>
-              <!-- End testimonial item -->
+              <!-- End informasi item -->
 
               <div class="swiper-slide">
-                <div class="testimonial-wrap">
-                  <div class="testimonial-item">
-                    <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="" />
+                <div class="informasi-wrap">
+                  <div class="informasi-item">
+                    <img src="assets/img/informasi-penduduk/profesi-penduduk.jpg" class="informasi-img" alt="" />
                     <h3>Profesi Penduduk</h3>
                     <h4>Desa Tanjung Agung</h4>
                     <p>
@@ -589,166 +743,14 @@ Kordinat letak geografis desa Tanjung Agung berada pada Longitude 104'42'38" dan
                   </div>
                 </div>
               </div>
-              <!-- End testimonial item -->
+              <!-- End informasi item -->
 
             </div>
             <div class="swiper-pagination"></div>
           </div>
         </div>
       </section>
-      <!-- End Testimonials Section -->  
-
-<!---Data Sarana dan Prasarana-->
-
-
-      <!-- ======= Cta Section ======= -->
-      <section id="informasi-sarana" class="cta">
-        <div class="container" data-aos="zoom-in">
-          <div class="text-center">
-            <h3>Informasi Sarana Dan Prasarana</h3>
-            <p>Berikut adalah data sarana dan prasarana fasilitas desa tanjung agung.</p>
-          </div>
-        </div>
-      </section>
-      <!-- End Cta Section -->
-
-      <!-- ======= Portfolio Section ======= -->
-      <section id="portfolio" class="portfolio">
-        <div class="container" data-aos="fade-up">
-          <div class="section-title">
-            <h2>Fasilitas</h2>
-            <p>Sarana dan Prasarana</p>
-          </div>
-
-          <div class="row" data-aos="fade-up" data-aos-delay="100">
-            <div class="col-lg-12 d-flex justify-content-center">
-              <ul id="portfolio-flters">
-                <li data-filter="*" class="filter-active">Semua</li>
-                <li data-filter=".filter-app">Prasarana Ibadah</li>
-                <li data-filter=".filter-card">Prasarana Pendidikan</li>
-                <li data-filter=".filter-web">Prasarana Umum dan Kesehatan</li>
-              </ul>
-            </div>
-          </div>
-
-          <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
-            <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-              <img src="assets/img/portfolio/portfolio-1.jpg" class="img-fluid" alt="" />
-              <div class="portfolio-info">
-                <h4>Masjid</h4>
-                <p>Berjumlah 5 Unit</p>
-                <a href="assets/img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 1"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-              </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-              <img src="assets/img/portfolio/portfolio-2.jpg" class="img-fluid" alt="" />
-              <div class="portfolio-info">
-                <h4>Posyandu dan Polindes</h4>
-                <p>Berjumlah 1 Unit</p>
-                <a href="assets/img/portfolio/portfolio-2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-              </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-              <img src="assets/img/portfolio/portfolio-3.jpg" class="img-fluid" alt="" />
-              <div class="portfolio-info">
-                <h4>Mushola</h4>
-                <p>Berjumlah 16 Unit</p>
-                <a href="assets/img/portfolio/portfolio-3.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 2"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-              </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-              <img src="assets/img/portfolio/portfolio-4.jpg" class="img-fluid" alt="" />
-              <div class="portfolio-info">
-                <h4>Gedung Sekolah Paud</h4>
-                <p>Berjumlah 1 Unit</p>
-                <a href="assets/img/portfolio/portfolio-4.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Card 2"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-              </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-              <img src="assets/img/portfolio/portfolio-5.jpg" class="img-fluid" alt="" />
-              <div class="portfolio-info">
-                <h4>Olahraga</h4>
-                <p>Berjumlah 1 Unit</p>
-                <a href="assets/img/portfolio/portfolio-5.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Web 2"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-              </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-              <img src="assets/img/portfolio/portfolio-5.jpg" class="img-fluid" alt="" />
-              <div class="portfolio-info">
-                <h4>Pasar Desa</h4>
-                <p>Berjumlah 1 Unit</p>
-                <a href="assets/img/portfolio/portfolio-5.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Web 2"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-              </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-              <img src="assets/img/portfolio/portfolio-6.jpg" class="img-fluid" alt="" />
-              <div class="portfolio-info">
-                <h4>Gereja</h4>
-                <p>Berjumlah 1 Unit</p>
-                <a href="assets/img/portfolio/portfolio-6.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 3"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-              </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-              <img src="assets/img/portfolio/portfolio-7.jpg" class="img-fluid" alt="" />
-              <div class="portfolio-info">
-                <h4>Gedung Sekolah TK</h4>
-                <p>Berjumlah 1 Unit</p>
-                <a href="assets/img/portfolio/portfolio-7.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Card 1"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-              </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-              <img src="assets/img/portfolio/portfolio-8.jpg" class="img-fluid" alt="" />
-              <div class="portfolio-info">
-                <h4>Gedung Sekolah Sd</h4>
-                <p>Berjumlah 1 Unit</p>
-                <a href="assets/img/portfolio/portfolio-8.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Card 3"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-              </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-              <img src="assets/img/portfolio/portfolio-8.jpg" class="img-fluid" alt="" />
-              <div class="portfolio-info">
-                <h4>Gedung Sekolah Smp</h4>
-                <p>Berjumlah 1 Unit</p>
-                <a href="assets/img/portfolio/portfolio-8.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Card 3"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-              </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-              <img src="assets/img/portfolio/portfolio-9.jpg" class="img-fluid" alt="" />
-              <div class="portfolio-info">
-                <h4>Sumur Desa</h4>
-                <p>Berjumlah 13 Unit</p>
-                <a href="assets/img/portfolio/portfolio-9.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- End Portfolio Section -->
-
-
-<!--End Data Sarana dan Prasarana-->
-
+      <!-- End data Section -->  
 
       <!-- ======= Informasi Section ======= -->
       <section id="informasi-pendikes" class="cta">
@@ -765,19 +767,19 @@ Kordinat letak geografis desa Tanjung Agung berada pada Longitude 104'42'38" dan
 
 
       <!-- ======= Informasi pendidikan kesehatan Section ======= -->
-      <section id="testimonials" class="testimonials section-bg">
+      <section id="data" class="data section-bg">
         <div class="container" data-aos="fade-up">
           <div class="section-title">
             <h2>Data</h2>
             <p>Pendidikan dan Kesehatan Desa</p>
           </div>
 
-          <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
+          <div class="data-slider swiper" data-aos="fade-up" data-aos-delay="100">
             <div class="swiper-wrapper">
               <div class="swiper-slide">
-                <div class="testimonial-wrap">
-                  <div class="testimonial-item">
-                    <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="" />
+                <div class="informasi-wrap">
+                  <div class="informasi-item">
+                    <img src="assets/img/informasi-pendikes/tenagakesehatan-pendikes.jpeg" class="informasi-img" alt="" />
                     <h3>Tenaga Kesehatan</h3>
                     <h4>Tanjung Agung</h4>
                     <p>
@@ -787,12 +789,12 @@ Kordinat letak geografis desa Tanjung Agung berada pada Longitude 104'42'38" dan
                   </div>
                 </div>
               </div>
-              <!-- End testimonial item -->
+              <!-- End informasi item -->
 
               <div class="swiper-slide">
-                <div class="testimonial-wrap">
-                  <div class="testimonial-item">
-                    <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="" />
+                <div class="informasi-wrap">
+                  <div class="informasi-item">
+                    <img src="assets/img/informasi-pendikes/pendidikanumum-pendikes.jpg" class="informasi-img" alt="" />
                     <h3>Pendidikan Umum</h3>
                     <h4>Tanjung Agung</h4>
                     <p>
@@ -803,13 +805,13 @@ Kordinat letak geografis desa Tanjung Agung berada pada Longitude 104'42'38" dan
                   </div>
                 </div>
               </div>
-              <!-- End testimonial item -->
+              <!-- End informasi item -->
 
               
               <div class="swiper-slide">
-                <div class="testimonial-wrap">
-                  <div class="testimonial-item">
-                    <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="" />
+                <div class="informasi-wrap">
+                  <div class="informasi-item">
+                    <img src="assets/img/informasi-pendikes/pendidikanlanjut-pendikes.jpeg" class="informasi-img" alt="" />
                     <h3>Pendidikan Lanjut</h3>
                     <h4>Tanjung Agung</h4>
                     <p>
@@ -819,12 +821,12 @@ Kordinat letak geografis desa Tanjung Agung berada pada Longitude 104'42'38" dan
                   </div>
                 </div>
               </div>
-              <!-- End testimonial item -->
+              <!-- End informasi item -->
 
               <div class="swiper-slide">
-                <div class="testimonial-wrap">
-                  <div class="testimonial-item">
-                    <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="" />
+                <div class="informasi-wrap">
+                  <div class="informasi-item">
+                    <img src="assets/img/informasi-pendikes/tidaklulus-pendikes.jpg" class="informasi-img" alt="" />
                     <h3>Tidak Mengikuti Pendidikan</h3>
                     <h4>Tanjung Agung</h4>
                     <p>
@@ -834,21 +836,23 @@ Kordinat letak geografis desa Tanjung Agung berada pada Longitude 104'42'38" dan
                   </div>
                 </div>
               </div>
-              <!-- End testimonial item -->
+              <!-- End informasi item -->
 
             </div>
             <div class="swiper-pagination"></div>
           </div>
         </div>
       </section>
-      <!-- End Testimonials Section -->      
+      <!-- End data Section -->      
 
       <!-- ======= Cta Section ======= -->
       <section id="informasi-keuangan" class="cta">
         <div class="container" data-aos="zoom-in">
           <div class="text-center">
-            <h3>Informasi Data Keuangan Desa</h3>
-            <p>Berikut adalah data keuangan Desa Tanjung Agung.</p>
+            <h3>Informasi Keuangan Desa</h3>
+            <p>
+              Berikut Informasi Keuangan dari Desa Tanjung Agung, Kecamatan Pakuan Ratu, Kabupaten Way Kanan, Provinsi Lampung
+            </p>
           </div>
         </div>
       </section>
@@ -858,8 +862,8 @@ Kordinat letak geografis desa Tanjung Agung berada pada Longitude 104'42'38" dan
       <section id="faq" class="faq">
         <div class="container" data-aos="fade-up">
           <div class="section-title">
-            <h2>Keuangan</h2>
-            <p>Informasi Data Keuangan Desa</p>
+            <h2>Data</h2>
+            <p>Informasi Keuangan Desa</p>
           </div>
 
           <div class="row faq-item d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
@@ -880,7 +884,7 @@ Kordinat letak geografis desa Tanjung Agung berada pada Longitude 104'42'38" dan
             </div>
             <div class="col-lg-7">
               <p>
-                Desa Tanjung Agung menerima bantuan dana berjumlah Rp. 000.000 yang didapat dari pemerintah berjumlah Rp. 000.000.- Kabupaten/ADK berjumlah Rp. 0000.000.- Bantuan lain tidak mengikat Rp. 000.000.- SILPA/SIKPA Rp. 000.000. dan Dana Cadangan Rp. 000.000.-
+                Desa Tanjung Agung menerima bantuan dana berjumlah Rp. 1.520.996.280.- yang didapat dari pemerintah berjumlah Rp. 1.091.118.000,- Kabupaten/ADK berjumlah Rp. 429.878.280.- Bantuan lain tidak mengikat Rp. 13.303.100.- SILPA/SIKPA Rp. 000.000. dan Dana Cadangan Rp. 2.766.936.-
               </p>
             </div>
           </div>
@@ -893,7 +897,7 @@ Kordinat letak geografis desa Tanjung Agung berada pada Longitude 104'42'38" dan
             </div>
             <div class="col-lg-7">
               <p>
-            Belanja desa Tanjung Agung berjumlah Rp. 000.000.- yang meliputi belanja Rutin yang berjumlah Rp. 000.000.- dan Belanja tidak rutin Rp.000.000.-.
+            Belanja desa Tanjung Agung berjumlah Rp. 1.537.066.316.- yang meliputi belanja Rutin yang berjumlah Rp. 699.590.820.- dan Belanja tidak rutin Rp. 731.047.800,-.
               </p>
             </div>
           </div>
@@ -908,7 +912,9 @@ Kordinat letak geografis desa Tanjung Agung berada pada Longitude 104'42'38" dan
         <div class="container" data-aos="zoom-in">
           <div class="text-center">
             <h3>Informasi Lembaga Desa Tanjung Agung</h3>
-            <p>Berikut adalah data lembaga Desa Tanjung Agung.</p>
+            <p>
+              Berikut Informasi Lembaga dari Desa Tanjung Agung, Kecamatan Pakuan Ratu, Kabupaten Way Kanan, Provinsi Lampung
+            </p>
           </div>
         </div>
       </section>
@@ -917,7 +923,7 @@ Kordinat letak geografis desa Tanjung Agung berada pada Longitude 104'42'38" dan
 
       <br><br><br>
  <!-- ======= Counts Section ======= -->
- <section id="counts" class="counts">
+ <section id="countss" class="counts">
   <div class="container" data-aos="fade-up">
     <div class="row no-gutters">
       <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch">
@@ -997,6 +1003,107 @@ Kordinat letak geografis desa Tanjung Agung berada pada Longitude 104'42'38" dan
 </section>
 <!-- End Counts Section -->
 
+
+      <!-- ======= Informasi tani Section ======= -->
+      <section id="informasi-tani" class="cta">
+        <div class="container" data-aos="zoom-in">
+          <div class="text-center">
+            <h3>Informasi Pertanian dan Peternakan</h3>
+            <p>
+              Berikut Informasi Pertanian dan Peternakan dari Desa Tanjung Agung, Kecamatan Pakuan Ratu, Kabupaten Way Kanan, Provinsi Lampung
+            </p>
+          </div>
+        </div>
+      </section>
+      <!-- Informasi Cta Section -->
+
+
+      <!-- ======= Informasi pertanian dan peternakan Section ======= -->
+      <section id="data" class="data section-bg">
+        <div class="container" data-aos="fade-up">
+          <div class="section-title">
+            <h2>Data</h2>
+            <p>Pertanian dan Peternakan Desa</p>
+          </div>
+
+          <div class="data-slider swiper" data-aos="fade-up" data-aos-delay="100">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="informasi-wrap">
+                  <div class="informasi-item">
+                    <img src="assets/img/informasi-pertanian/lahan.jpg" class="informasi-img" alt="" />
+                    <h3>Kepemilikan Lahan</h3>
+                    <h4>Tanjung Agung</h4>
+                    <p>
+                      <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                      Terdapat total sejumlah 20 keluarga yang memiliki lahan berjenis tanaman pangan kurang dari 5 hektar per keluarga.
+                      Terdapat total sejumlah 947 keluarga yang memiliki lahan berjenis tanaman buah-buahan,mayoritas keluarga tersebut memiliki lahan dibawah 1 hektar.
+                      Terdapat total sejumlah 45 keluarga yang memiliki lahan berjenis tanaman perkebunan dengan ukuran lahan dibawah 10 hektar per keluarga.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!-- End informasi item -->
+
+              <div class="swiper-slide">
+                <div class="informasi-wrap">
+                  <div class="informasi-item">
+                    <img src="assets/img/informasi-pertanian/komoditas.jpg" class="informasi-img" alt="" />
+                    <h3>Komoditas</h3>
+                    <h4>Tanjung Agung</h4>
+                    <p>
+                      <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                      Di desa ini, komoditas utama Desa Tanjung Agung adalah karet dan sawit. Desa ini memiliki total lahan kebun karet seluas 223 Hektar dengan hasil panen 2676 ton/tahun serta 
+                      memiliki total lahan sawit seluas 136 Hektar dengan hasil panen 557,6 ton/tahun. Lalu, diikuti dengan total luaskomoditas singkong 21 hektar,tebu seluas 18 hektar, dan padi seluas 6,5 hektar.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!-- End informasi item -->
+
+              
+              <div class="swiper-slide">
+                <div class="informasi-wrap">
+                  <div class="informasi-item">
+                    <img src="assets/img/informasi-pertanian/peternakan.jpg" class="informasi-img" alt="" />
+                    <h3>Peternakan</h3>
+                    <h4>Tanjung Agung</h4>
+                    <p>
+                      <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                       Jumlah orang yang memiliki sapi ternak di desa ini berjumlah 154 orang dengan total sapi 350 ekor.
+                       Jumlah orang yang memiliki ayam kampung di desa ini berjumlah 821 orang dengan total ayam  5186 ekor.
+                       Jumlah orang yang memiliki bebek di desa ini berjumlah 22 orang dengan total bebek 335 ekor
+                       Jumlah orang yang memiliki kambing di desa ini berjumlah 730 orang dengan total sapi 3321 ekor
+                       Jumlah orang yang memiliki angsa di desa ini berjumlah 5 orang dengan total sapi 211 ekor
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!-- End informasi item -->
+
+              <div class="swiper-slide">
+                <div class="informasi-wrap">
+                  <div class="informasi-item">
+                    <img src="assets/img/informasi-pertanian/perikanan.jpg" class="informasi-img" alt="" />
+                    <h3>Perikanan</h3>
+                    <h4>Tanjung Agung</h4>
+                    <p>
+                      <i class="bx bxs-quote-alt-left quote-icon-left"></i> 
+                      Terdapat sarana dalam budidaya ikan dengan media air yaitu berupa kolam sejumlah 12 unit dengan hasil produksi 260 kg per tahunnya,diikuti dengan adanya 3 sungai dan 7 tempat pemancingan.
+                      Jenis ikan yang diproduksi yaitu lele dengan hasil produksi 100 kg per tahun,gurame dengan 130 kg per tahun, dan nila 30 kg per tahun.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!-- End informasi item -->
+
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </section>
+      <!-- End data Section -->     
+
     </main>
     <!-- End #main -->
 
@@ -1012,17 +1119,18 @@ Kordinat letak geografis desa Tanjung Agung berada pada Longitude 104'42'38" dan
           <div class="row">
             <div class="col-xl-3 col-lg-4 col-md-6">
               <div class="member" data-aos="zoom-in" data-aos-delay="100">
-                <img src="assets/img/team/team-1.jpg" class="img-fluid" alt="" />
+                <img src="assets/img/team/raihann.png" class="img-fluid" alt="" />
                 <div class="member-info">
                   <div class="member-info-content">
                     <h4>Raihan Ferdyanza</h4>
                     <span>2015061085</span>
                   </div>
                   <div class="social">
-                    <a href=""><i class="bi bi-twitter"></i></a>
-                    <a href=""><i class="bi bi-facebook"></i></a>
-                    <a href=""><i class="bi bi-instagram"></i></a>
-                    <a href=""><i class="bi bi-linkedin"></i></a>
+                    <a href="https://github.com/Raiferdy541/"><i class="bi bi-github"></i></a>
+                    <a href="https://web.facebook.com/raihan.ferdyanza"><i class="bi bi-facebook"></i></a>
+                    <a href="https://www.instagram.com/raihan.ferdyanza/"><i class="bi bi-instagram"></i></a>
+                    <a href="https://www.youtube.com/channel/UCWWdHVpkkFggJuKqCSHdAOA"><i class="bi bi-youtube"></i></a>
+                    <a href="https://mail.google.com/mail/u/0/?view=cm&tf=1&fs=1&to=raihan.ferdyanza@gmail.com"><i class="bi bi-envelope-at"></i></a>
                   </div>
                 </div>
               </div>
@@ -1030,17 +1138,17 @@ Kordinat letak geografis desa Tanjung Agung berada pada Longitude 104'42'38" dan
 
             <div class="col-xl-3 col-lg-4 col-md-6" data-wow-delay="0.1s">
               <div class="member" data-aos="zoom-in" data-aos-delay="200">
-                <img src="assets/img/team/team-2.jpg" class="img-fluid" alt="" />
+                <img src="assets/img/team/ardii.png" class="img-fluid" alt="" />
                 <div class="member-info">
                   <div class="member-info-content">
-                    <h4>Ardi Baskara Soma</h4>
-                    <span></span>
+                    <h4>Ardia Baskara Soma</h4>
+                    <span>2014071026</span>
                   </div>
                   <div class="social">
-                    <a href=""><i class="bi bi-twitter"></i></a>
-                    <a href=""><i class="bi bi-facebook"></i></a>
-                    <a href=""><i class="bi bi-instagram"></i></a>
-                    <a href=""><i class="bi bi-linkedin"></i></a>
+                    <a href="https://github.com/ardibaskaraa"><i class="bi bi-github"></i></a>
+                    <a href="https://mail.google.com/mail/u/0/?view=cm&tf=1&fs=1&to=baskarasomaa@gmail.com"><i class="bi bi-envelope-at"></i></a>
+                    <a href="https://www.instagram.com/ardibaskaraa/"><i class="bi bi-instagram"></i></a>
+                    <a href="https://id.linkedin.com/in/ardia-baskara-soma-1984a61ba"><i class="bi bi-linkedin"></i></a>
                   </div>
                 </div>
               </div>
@@ -1048,17 +1156,15 @@ Kordinat letak geografis desa Tanjung Agung berada pada Longitude 104'42'38" dan
 
             <div class="col-xl-3 col-lg-4 col-md-6" data-wow-delay="0.2s">
               <div class="member" data-aos="zoom-in" data-aos-delay="300">
-                <img src="assets/img/team/team-3.jpg" class="img-fluid" alt="" />
+                <img src="assets/img/team/bryann.png" class="img-fluid" alt="" />
                 <div class="member-info">
                   <div class="member-info-content">
                     <h4>Brian Gemilang Wijaya</h4>
-                    <span>CTO</span>
+                    <span>2051011004</span>
                   </div>
                   <div class="social">
-                    <a href=""><i class="bi bi-twitter"></i></a>
-                    <a href=""><i class="bi bi-facebook"></i></a>
-                    <a href=""><i class="bi bi-instagram"></i></a>
-                    <a href=""><i class="bi bi-linkedin"></i></a>
+                    <a href="https://instagram.com/brianwijay?igshid=NTA5ZTk1NTc="><i class="bi bi-instagram"></i></a>
+                    <a href="https://wa.me/62895327429922"><i class="bi bi-whatsapp"></i></a>
                   </div>
                 </div>
               </div>
@@ -1069,17 +1175,14 @@ Kordinat letak geografis desa Tanjung Agung berada pada Longitude 104'42'38" dan
           <div class="row">
             <div class="col-xl-3 col-lg-4 col-md-6">
               <div class="member" data-aos="zoom-in" data-aos-delay="100">
-                <img src="assets/img/team/team-1.jpg" class="img-fluid" alt="" />
+                <img src="assets/img/team/bellaa.png" class="img-fluid" alt="" />
                 <div class="member-info">
                   <div class="member-info-content">
                     <h4>Bella Amanda Iswahyudi</h4>
-                    <span>Chief Executive Officer</span>
+                    <span>2014051026</span>
                   </div>
                   <div class="social">
-                    <a href=""><i class="bi bi-twitter"></i></a>
-                    <a href=""><i class="bi bi-facebook"></i></a>
-                    <a href=""><i class="bi bi-instagram"></i></a>
-                    <a href=""><i class="bi bi-linkedin"></i></a>
+                    <a href="https://www.instagram.com/bellaamanda_isw/"><i class="bi bi-instagram"></i></a>
                   </div>
                 </div>
               </div>
@@ -1087,17 +1190,15 @@ Kordinat letak geografis desa Tanjung Agung berada pada Longitude 104'42'38" dan
 
             <div class="col-xl-3 col-lg-4 col-md-6" data-wow-delay="0.1s">
               <div class="member" data-aos="zoom-in" data-aos-delay="200">
-                <img src="assets/img/team/team-2.jpg" class="img-fluid" alt="" />
+                <img src="assets/img/team/ader.jpg" class="img-fluid" alt="" />
                 <div class="member-info">
                   <div class="member-info-content">
                     <h4>Aderia Ernanda</h4>
-                    <span>Product Manager</span>
+                    <span>2016021016</span>
                   </div>
                   <div class="social">
-                    <a href=""><i class="bi bi-twitter"></i></a>
-                    <a href=""><i class="bi bi-facebook"></i></a>
-                    <a href=""><i class="bi bi-instagram"></i></a>
-                    <a href=""><i class="bi bi-linkedin"></i></a>
+                    <a href="https://www.instagram.com/adereeaernanda/"><i class="bi bi-instagram"></i></a>
+                    <a href="https://mail.google.com/mail/u/0/?view=cm&tf=1&fs=1&to=aderiaern883@gmail.com"><i class="bi bi-envelope-at"></i></a>
                   </div>
                 </div>
               </div>
@@ -1105,17 +1206,17 @@ Kordinat letak geografis desa Tanjung Agung berada pada Longitude 104'42'38" dan
 
             <div class="col-xl-3 col-lg-4 col-md-6" data-wow-delay="0.2s">
               <div class="member" data-aos="zoom-in" data-aos-delay="300">
-                <img src="assets/img/team/team-3.jpg" class="img-fluid" alt="" />
+                <img src="assets/img/team/alfinaa.png" class="img-fluid" alt="" />
                 <div class="member-info">
                   <div class="member-info-content">
                     <h4>Alfin Aprianista</h4>
-                    <span>CTO</span>
+                    <span>2014111041</span>
                   </div>
                   <div class="social">
                     <a href=""><i class="bi bi-twitter"></i></a>
                     <a href=""><i class="bi bi-facebook"></i></a>
-                    <a href=""><i class="bi bi-instagram"></i></a>
-                    <a href=""><i class="bi bi-linkedin"></i></a>
+                    <a href="https://www.instagram.com/alfinaprianistia_/"><i class="bi bi-instagram"></i></a>
+                    <a href="https://mail.google.com/mail/u/0/?view=cm&tf=1&fs=1&to=alfinapranistia@gmail.com"><i class="bi bi-envelope-at"></i></a>
                   </div>
                 </div>
               </div>
@@ -1123,17 +1224,14 @@ Kordinat letak geografis desa Tanjung Agung berada pada Longitude 104'42'38" dan
 
             <div class="col-xl-3 col-lg-4 col-md-6" data-wow-delay="0.3s">
               <div class="member" data-aos="zoom-in" data-aos-delay="400">
-                <img src="assets/img/team/team-4.jpg" class="img-fluid" alt="" />
+                <img src="assets/img/team/novaa.png" class="img-fluid" alt="" />
                 <div class="member-info">
                   <div class="member-info-content">
-                    <h4>Nova Tresna</h4>
-                    <span>Accountant</span>
+                    <h4>Nova Tresna Dewi</h4>
+                    <span>2012011059</span>
                   </div>
                   <div class="social">
-                    <a href=""><i class="bi bi-twitter"></i></a>
-                    <a href=""><i class="bi bi-facebook"></i></a>
-                    <a href=""><i class="bi bi-instagram"></i></a>
-                    <a href=""><i class="bi bi-linkedin"></i></a>
+                    <a href="https://mail.google.com/mail/u/0/?view=cm&tf=1&fs=1&to=tresnanovaa@gmail.com"><i class="bi bi-envelope-at"></i></a>
                   </div>
                 </div>
               </div>
@@ -1171,19 +1269,19 @@ Kordinat letak geografis desa Tanjung Agung berada pada Longitude 104'42'38" dan
             <div class="col-lg-2 col-md-6 footer-links">
               <h4>Tautan Halaman</h4>
               <ul>
-                <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
-                <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
-                <li><i class="bx bx-chevron-right"></i> <a href="#">Services</a></li>
-                <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
-                <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
+                <li><i class="bx bx-chevron-right"></i> <a href="#hero">Beranda</a></li>
+                <li><i class="bx bx-chevron-right"></i> <a href="#about">Tentang</a></li>
+                <li><i class="bx bx-chevron-right"></i> <a href="#services">Layanan</a></li>
+                <li><i class="bx bx-chevron-right"></i> <a href="#team">Aparat</a></li>
+                <li><i class="bx bx-chevron-right"></i> <a href="#teamkkn">Tim KKN</a></li>
               </ul>
             </div>
 
             <div class="col-lg-2 col-md-6 footer-links">
               <h4>Layanan Desa</h4>
               <ul>
-                <li><i class="bx bx-chevron-right"></i> <a href="#">Pengurusan Surat</a></li>
-                <li><i class="bx bx-chevron-right"></i> <a href="#">Perpindahan Kependudukan</a></li>
+                <li><i class="bx bx-chevron-right"></i> <a href="#services">Pengurusan Surat</a></li>
+                <li><i class="bx bx-chevron-right"></i> <a href="#informasi-wilayah">Informasi Desa</a></li>
               </ul>
             </div>
             <div class="col-lg-4 col-md-6 footer-newsletter">

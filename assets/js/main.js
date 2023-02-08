@@ -181,9 +181,9 @@
   });
 
   /**
-   * Testimonials slider
+   * data slider
    */
-  new Swiper('.testimonials-slider', {
+  new Swiper('.data-slider', {
     speed: 600,
     loop: true,
     autoplay: {
@@ -213,26 +213,26 @@
    * Porfolio isotope and filter
    */
   window.addEventListener('load', () => {
-    let portfolioContainer = select('.portfolio-container');
-    if (portfolioContainer) {
-      let portfolioIsotope = new Isotope(portfolioContainer, {
-        itemSelector: '.portfolio-item',
+    let saranaContainer = select('.sarana-container');
+    if (saranaContainer) {
+      let saranaIsotope = new Isotope(saranaContainer, {
+        itemSelector: '.sarana-item',
         layoutMode: 'fitRows'
       });
 
-      let portfolioFilters = select('#portfolio-flters li', true);
+      let saranaFilters = select('#sarana-flters li', true);
 
-      on('click', '#portfolio-flters li', function(e) {
+      on('click', '#sarana-flters li', function(e) {
         e.preventDefault();
-        portfolioFilters.forEach(function(el) {
+        saranaFilters.forEach(function(el) {
           el.classList.remove('filter-active');
         });
         this.classList.add('filter-active');
 
-        portfolioIsotope.arrange({
+        saranaIsotope.arrange({
           filter: this.getAttribute('data-filter')
         });
-        portfolioIsotope.on('arrangeComplete', function() {
+        saranaIsotope.on('arrangeComplete', function() {
           AOS.refresh()
         });
       }, true);
@@ -241,16 +241,16 @@
   });
 
   /**
-   * Initiate portfolio lightbox 
+   * Initiate sarana lightbox 
    */
-  const portfolioLightbox = GLightbox({
-    selector: '.portfolio-lightbox'
+  const saranaLightbox = GLightbox({
+    selector: '.sarana-lightbox'
   });
 
   /**
-   * Portfolio details slider
+   * sarana details slider
    */
-  new Swiper('.portfolio-details-slider', {
+  new Swiper('.sarana-details-slider', {
     speed: 400,
     loop: true,
     autoplay: {
